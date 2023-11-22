@@ -16,6 +16,7 @@ struct Fragment {
   Color color; // r, g, b values for color
   float intensity;  // light intensity
   glm::vec3 original;
+  glm::vec3 normal;
 };
 
 struct FragColor {
